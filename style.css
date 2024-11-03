@@ -1,0 +1,116 @@
+.div-ex1 {
+    width: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 0px;
+    margin: auto;
+  }
+
+  .img-grill {
+    border-radius: 10px;
+  }
+
+.img-fit {
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+#pwb-carousel-bg {
+    background-color: #262019;
+    }
+.c-item {
+    height: 488px;
+    border-radius: 10px;
+}
+
+.c-img {
+    height:100%;
+    object-fit: cover;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.logo {
+    transform: translateY(-18px);
+}
+.monsieur-la-doulaise-regular {
+    font-family: "Monsieur La Doulaise", cursive;
+    font-weight: 575;
+    font-style: normal;
+    font-size: calc(100% + 1vw + 1vh);
+    /*font-size: 50px;*/
+}
+
+.main {
+    width: auto;
+    height: 288px;
+    background-color: rgb(254, 254, 254);
+    /* background-image: url(img/MaryAngelica_6.png);*/
+    /* background-size: 170vh, cover; */
+    background-size: 150vh, cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: left;
+    border-radius: 10px;
+    /*align-items: center;*/
+}
+
+.text-responsive {
+    font-size: calc(100% + 1vw + 1vh);
+}
+
+.main-h1 {
+    /*font-size: 40px;*/
+    font-size: calc(100% + 1vw + 1vh);
+    line-height: 45px;
+    color: white;
+    font-family: Roboto;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-left: 40px;
+    z-index: 2;
+}
+.main-h5 {
+    font-size: 40px;
+    line-height: 45px;
+    color: white;
+    font-family: Roboto;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-right: 600px;
+    margin-bottom: 200px;
+}
+.main-p {
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+    font-family: Roboto;
+    padding-left: 40px;
+}
+
+.main-a {
+    color: white;
+    padding-left: 50px;
+    width: fit-content;
+}
+
+.main-quotes{
+    margin-top: 10px;
+    padding-left: 125px;
+    font-size: 12px;
+    line-height: 16px;
+    color: white;
+    font-family: Roboto;
+}
+
+.blockquote-footer {
+    text-align-last: right;
+    /*margin-right: 50px;*/
+}
+.my-aboutus-image {
+    margin-left: 80px;
+    object-fit: cover;
+    height: 50vh;
+    width: 50vh;
+    
+}
